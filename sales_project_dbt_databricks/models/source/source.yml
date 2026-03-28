@@ -1,0 +1,13 @@
+sources:
+  - name: source
+    database: dbt_databricks_sales_project  
+    schema: source  
+    tables:
+      - name: fact_sales
+      - name: fact_returns
+      - name: dim_customer
+      - name: dim_product
+      - name: dim_date
+      - name: dim_store
+
+
